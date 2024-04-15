@@ -1,0 +1,25 @@
+/* #region common */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cms-blue: #0282F9;
+    --cms-light: white;
+    --csm-dark-main: #1c1c1c;
+    --csm-dark-footer: #303030;
+    --csm-icons-text: #797979;
+}
+
+body {
+    background-color: var(--cms-light);
+
+    & h1 {
+        color: var(--cms-blue);
+    }
+}
+
+/* #endregion common */
