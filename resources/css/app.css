@@ -137,7 +137,8 @@ header {
 .row {
     display: flex;
     margin: 0 -1rem;
-    align-content: center;
+    /*  align-content: center; */
+    flex-wrap: wrap;
 }
 
 .col {
@@ -248,3 +249,43 @@ footer {
 }
 
 /* #endregion footer */
+
+
+/* #region main */
+main {
+    padding: 1.3rem;
+    background-color: var(--csm-dark-main);
+
+    & .col-2 {
+        width: calc(100% / 12 * 2);
+        padding: 1rem;
+
+        & .card {
+            aspect-ratio: 1;
+            overflow: hidden;
+        }
+
+        & .title {
+            color: var(--cms-light);
+            font-size: 0.8rem;
+            font-weight: 400;
+            padding-top: 1rem;
+            padding-bottom: 0.5rem;
+        }
+    }
+
+    & .more {
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: var(--cms-light);
+        background-color: var(--cms-blue);
+        border-radius: 2px;
+        width: 120px;
+        padding: 0.5rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* #endregion main */
