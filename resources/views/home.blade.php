@@ -20,4 +20,59 @@
 
         </div>
     </main>
+
+    <div class="mainDown">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="cardImage">
+                        <img src="{{ Vite::asset('resources/images/buy-comics-digital-comics.png') }}">
+                    </div>
+                    <div class="cardName">
+                        DIGITAL COMICS
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="cardImage">
+                        <img src="{{ Vite::asset('resources/images/buy-comics-merchandise.png') }}">
+                    </div>
+                    <div class="cardName">
+                        DC MERCHANDISE
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="cardImage">
+                        <img src="{{ Vite::asset('resources/images/buy-comics-subscriptions.png') }}">
+                    </div>
+                    <div class="cardName">
+                        SUBSCRIPTION
+                    </div>
+
+                </div>
+
+                <div class="col">
+                    <div class="cardImage">
+                        <img src="{{ Vite::asset('resources/images/buy-comics-shop-locator.png') }}">
+                    </div>
+                    <div class="cardName">
+                        COMIC SHOP LOCATOR
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="cardImage">
+                        <img src="{{ Vite::asset('resources/images/buy-dc-power-visa.svg') }}">
+
+                    </div>
+                    <div class="cardName">
+                        DC POWER VISA
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
 @endsection

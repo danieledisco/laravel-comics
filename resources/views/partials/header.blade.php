@@ -8,7 +8,7 @@
                 DC POWER<sup>SM</sup> VISA
             </div>
             <div class="secondBox">
-                ADDITIONAL DC SITES
+                ADDITIONAL DC SITES<i class="fa-solid fa-caret-down dcSite"></i>
             </div>
         </div>
     </div>
@@ -28,11 +28,11 @@
                     <li><a href="#">VIDEOS</a></li>
                     <li><a href="#">FANS</a></li>
                     <li><a href="#">NEWS</a></li>
-                    <li><a href="#">SHOP</a></li>
+                    <li><a href="#">SHOP<i class="fa-solid fa-caret-down shop"></i></a></li>
                 </ul>
             </nav>
             <div class="search">
-                Search
+                Search <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
 

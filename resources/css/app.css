@@ -12,6 +12,8 @@
     --csm-dark-main: #1c1c1c;
     --csm-dark-footer: #303030;
     --csm-icons-text: #797979;
+    --comics-card-image-width: 70px;
+    --comics-card-image-height: 80px;
 }
 
 body {
@@ -97,7 +99,7 @@ header {
                 }
 
                 & a.active {
-                    padding-bottom: 1.2rem;
+                    padding-bottom: 1.4rem;
                     color: var(--cms-blue);
                     border-bottom: 6px solid var(--cms-blue);
 
@@ -128,6 +130,18 @@ header {
             width: 100%;
             height: auto;
         }
+    }
+
+    .shop {
+        font-size: 0.8rem;
+        color: var(--cms-blue);
+        margin-left: 0.4rem;
+    }
+
+    .dcSite {
+        font-size: 0.8rem;
+        color: var(--cms-light);
+        margin-left: 0.4rem;
     }
 }
 
@@ -285,6 +299,38 @@ main {
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+.mainDown {
+    background-color: var(--cms-blue);
+    padding: 2rem 0;
+    margin-bottom: -1.5rem;
+
+    & .col {
+        display: flex;
+        color: var(--cms-light);
+
+        & .cardImage {
+            margin-left: 2.rem;
+            text-align: center;
+            color: var(--comics-light);
+            margin-top: auto;
+            margin-bottom: auto;
+
+            & img {
+                width: var(--comics-card-image-width);
+            }
+        }
+
+        & .cardName {
+            font-size: 0.8rem;
+            text-align: center;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 0.5rem;
+            white-space: nowrap;
+        }
     }
 }
 
